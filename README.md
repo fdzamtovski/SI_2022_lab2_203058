@@ -1,5 +1,5 @@
 # Втора лабораториска вежба по Софтверско инженерство
-Филип Џамтовски, бр. на индекс 203058
+# Филип Џамтовски, бр. на индекс 203058
 Control Flow Graph
 Фотографија од control flow graph-ot:
 ![Graph](https://user-images.githubusercontent.com/76556606/171952528-3ff0ab57-f398-4d43-a29c-588aa8b62f82.png)
