@@ -18,7 +18,7 @@ M = 28 - 23 + 2 * 1
 M = 7
 
 ## Тест случаи според критериумот Every statement
-....
+![image](https://user-images.githubusercontent.com/76556606/172363396-643f5b33-7500-447a-b312-d2e25a67a848.png)
 
 ## Тест случаи според критериумот Every path
 ....
