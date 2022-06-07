@@ -24,4 +24,8 @@ M = 7
 ....
 
 ## Објаснување на напишаните unit tests
-... ..
+Првиот тест го правам со assertEquals(list, mk.ukim.finki.SILab2.function(resultList)) каде проверувам дали list е иста со листата вратена после функцијата function(resultList).
+
+Вториот тест го правам со IllegalArgumentException thrown = Assertions.assertThrows(IllegalArgumentException.class, () -> mk.ukim.finki.SILab2.function(exceptionList)), каде креирам исклучок од класата IllegalArgumentException. Кога ќе се изврши function() треба да ја врати пораката од exception. Вака проверувам дали е вратена порака од соодветниот исклучок assertEquals("List length should be greater than 0", thrown.getMessage());
+
+Третиот тест го правам со IllegalArgumentException thrown2 = Assertions.assertThrows(IllegalArgumentException.class, () -> mk.ukim.finki.SILab2.function(exceptionList2)), каде креирам исклучок од класата IllegalArgumentException. Кога ќе се изврши function() треба да ја врати пораката од exception. Вака проверувам дали е вратена порака од соодветниот исклучок assertEquals("List length should be a perfect square", thrown2.getMessage());
